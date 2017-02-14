@@ -1,0 +1,31 @@
+{
+  "name": "dollar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel ./src -d ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkatvellaichamy/dollar.git"
+  },
+  "author": "venkatvellaichamy@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkatvellaichamy/dollar/issues"
+  },
+  "homepage": "https://github.com/venkatvellaichamy/dollar#readme",
+  "dependencies": {
+    "csv-parse": "^1.2.0",
+    "lodash": "^4.17.4",
+    "robinhood": "^0.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-preset-env": "^1.1.8"
+  }
+}
